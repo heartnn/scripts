@@ -13,3 +13,11 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-a
 ## TCP脚本
 
 wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+
+## Aria2
+
+wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh
+
+## Caddy
+
+wget https://git.io/vra5C -O - -o /dev/null | sudo bash
