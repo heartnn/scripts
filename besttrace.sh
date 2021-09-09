@@ -15,11 +15,11 @@ next() {
 clear
 next
 
-ip_list=(60.1.168.53 106.114.18.100)
-ip_addr=(石家庄联通 石家庄电信)
+ip_list=(60.1.168.53 106.114.18.100 223.104.13.19)
+ip_addr=(石家庄联通 石家庄电信 石家庄移动)
 # ip_len=${#ip_list[@]}
 
-for i in {0..1}
+for i in {0..2}
 do
 	echo ${ip_addr[$i]}
 	./besttrace -q 1 ${ip_list[$i]}
