@@ -6,7 +6,7 @@ wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/best
 
 ## v2ray-trojan-agent
 
-wget -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+wget -N --no-check-certificate "https://raw.githubusercontent.com/reeceyng/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 
 **再次使用直接运行 `vasma`**
 
