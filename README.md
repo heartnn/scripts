@@ -21,3 +21,9 @@ wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh
 ## Caddy
 
 wget https://git.io/vra5C -O - -o /dev/null | sudo bash
+
+## frps
+
+wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.sh -O ./install-frps.sh
+chmod 700 ./install-frps.sh
+./install-frps.sh install
