@@ -1,5 +1,9 @@
 # scripts
 
+## NodeQuality
+
+    bash <(curl -sL https://run.NodeQuality.com)
+
 ## besttrace
 
     wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/besttrace.sh" && chmod +x besttrace.sh && ./besttrace.sh
@@ -39,4 +43,5 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
 
