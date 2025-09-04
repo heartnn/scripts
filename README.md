@@ -14,6 +14,16 @@
 
     wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
+## IP质量体检
+
+```
+bash <(curl -Ls https://Check.Place) -I
+bash <(curl -Ls https://IP.Check.Place)            #默认双栈检测
+bash <(curl -Ls https://IP.Check.Place) -4         #只检测IPv4结果
+bash <(curl -Ls https://IP.Check.Place) -6         #只检测IPv6结果
+bash <(curl -Ls https://IP.Check.Place) -i eth0    #指定检测网卡
+```
+
 ## Aria2
 
     wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh
@@ -29,3 +39,4 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
