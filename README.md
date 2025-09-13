@@ -36,7 +36,10 @@ bash <(curl -Ls https://IP.Check.Place) -i eth0    #指定检测网卡
 
 ### (3) besttrace
 
-    wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/besttrace.sh" && chmod +x besttrace.sh && ./besttrace.sh
+```
+curl -sL nxtrace.org/nt | bash
+wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/nexttrace.sh" && chmod +x nexttrace.sh && ./nexttrace.sh
+```
 
 ## 3. TCP
 
@@ -59,6 +62,7 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
 
 
 
