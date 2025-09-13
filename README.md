@@ -13,7 +13,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 ### (2) Sing-box 全家桶
 
 ```
-ash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
 ```
 
 **再次运行 `sb`**
@@ -59,5 +59,6 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
 
 
