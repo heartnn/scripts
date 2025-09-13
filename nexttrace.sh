@@ -16,6 +16,6 @@ ip_addr=(石家庄联通 石家庄电信 石家庄移动)
 for i in {0..2}
 do
 	echo ${ip_addr[$i]}
-	./nexttrace ${ip_list[$i]}
+	nexttrace ${ip_list[$i]}
 	next
 done
