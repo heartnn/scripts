@@ -1,12 +1,6 @@
 #!/bin/bash
 
-# install besttrace
-if [ ! -f "besttrace" ]; then
-    wget https://github.com/heartnn/scripts/raw/main/shell/besttrace
-    chmod +x besttrace
-fi
-
-# start to use besttrace
+# start to use nexttrace
 
 next() {
     printf "%-70s\n" "-" | sed 's/\s/-/g'
@@ -22,6 +16,6 @@ ip_addr=(石家庄联通 石家庄电信 石家庄移动)
 for i in {0..2}
 do
 	echo ${ip_addr[$i]}
-	./besttrace -q 1 ${ip_list[$i]}
+	./nexttrace ${ip_list[$i]}
 	next
 done
