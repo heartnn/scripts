@@ -34,7 +34,7 @@ bash <(curl -Ls https://IP.Check.Place) -6         #只检测IPv6结果
 bash <(curl -Ls https://IP.Check.Place) -i eth0    #指定检测网卡
 ```
 
-### (3) besttrace
+### (3) nexttrace
 
 ```
 curl -sL nxtrace.org/nt | bash
@@ -62,6 +62,7 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
 
 
 
