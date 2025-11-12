@@ -51,20 +51,10 @@ wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/next
 
     wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh
 
-### (2) Caddy
-
-    wget https://git.io/vra5C -O - -o /dev/null | sudo bash
-
-### (3) frps
+### (2) frps
 
 ```
 wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.sh -O ./install-frps.sh
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
-
-
-
-
-
-
