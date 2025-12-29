@@ -18,10 +18,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
 
 **再次运行 `sb`**
 
-### (3) S-UI
-
-<https://github.com/alireza0/s-ui>
-
 ## 2. 评测
 
 ### (1) NodeQuality
@@ -68,5 +64,6 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
 
 
