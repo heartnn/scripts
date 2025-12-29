@@ -13,7 +13,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 ### (2) Sing-box 全家桶
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/heartnn/sing-box/main/sing-box.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
 ```
 
 **再次运行 `sb`**
@@ -22,7 +22,9 @@ bash <(wget -qO- https://raw.githubusercontent.com/heartnn/sing-box/main/sing-bo
 
 ### (1) NodeQuality
 
-    bash <(curl -sL https://run.NodeQuality.com)
+```
+bash <(curl -sL https://run.NodeQuality.com)
+```
 
 ### (2) IP质量体检
 
@@ -43,13 +45,17 @@ wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/next
 
 ## 3. TCP
 
-    wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
 
 ## 4. 其他
 
 ### (1) Aria2
 
-    wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh
+```
+wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh
+```
 
 ### (2) frps
 
@@ -58,3 +64,4 @@ wget https://raw.githubusercontent.com/MvsCode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
+
