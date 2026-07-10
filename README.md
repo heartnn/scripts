@@ -46,7 +46,7 @@ wget -N --no-check-certificate "https://github.com/heartnn/scripts/raw/main/next
 ## 3. TCP
 
 ```
-wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
 ```
 
 ## 4. 其他
