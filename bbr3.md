@@ -3,7 +3,7 @@
 ## 1 run `check_x86-64_psabi.sh`
 
 ```
-bash <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
+wget -O check_x86-64_psabi.sh "https://dl.xanmod.org/check_x86-64_psabi.sh" && chmod +x check_x86-64_psabi.sh && ./check_x86-64_psabi.sh
 ```
 
 ## 2 Register the PGP key
